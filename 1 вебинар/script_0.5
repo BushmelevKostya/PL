@@ -1,0 +1,9 @@
+#!/bin/bash
+cat test
+grep '^.$' test
+grep '[0-9]' test
+grep '^[0-9+-\*/]\+$' test
+grep '\<[a-zA-Z]\{3\}\>' test
+grep '^.\{0\}$' test
+grep -v '[0-9]' test
+dos2unix
